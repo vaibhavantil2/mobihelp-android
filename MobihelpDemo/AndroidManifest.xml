@@ -9,6 +9,10 @@
 	
 	<!-- Needed only for email autocomplete to work, not mandatory for mobihelp -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+	
+	  <!-- Allows audio to be recorded. -->
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
 
     <application
         android:icon="@drawable/ic_launcher"
